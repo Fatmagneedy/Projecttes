@@ -1,3 +1,5 @@
+@extends('layout.pages')
+@section('content')
 <section class="about_section layout_padding">
     <div class="container">
       <div class="row">
@@ -32,3 +34,4 @@
       </div>
     </div>
   </section>
+  @endsection
