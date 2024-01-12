@@ -1,3 +1,8 @@
+@extends('layout.pages')
+@section('title')
+Our teams
+@endsection
+@section('content')
 <section class="team_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
@@ -63,3 +68,4 @@
       </div>
     </div>
   </section>
+  @endsection

@@ -1,4 +1,7 @@
 @extends('layout.pages')
+@section('title')
+Services
+@endsection
 @section('content')
 <section class="service_section layout_padding">
     <div class="container">

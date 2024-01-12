@@ -1,5 +1,10 @@
 @extends('layout.pages')
+@section('title')
+Contact us
+@endsection
+@include('include.map')
 @section('content')
+
 <section class="contact_section layout_padding">
     <div class="contact_bg_box">
       <div class="img-box">

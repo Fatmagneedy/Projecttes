@@ -6,6 +6,7 @@
 <body>
     @include('include.header')
     @yield('content')
+    @stack('row')
     @include('include.info')
 </body>
 </html>

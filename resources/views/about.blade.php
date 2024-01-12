@@ -1,4 +1,7 @@
 @extends('layout.pages')
+@section('title')
+About
+@endsection
 @section('content')
 <section class="about_section layout_padding">
     <div class="container">

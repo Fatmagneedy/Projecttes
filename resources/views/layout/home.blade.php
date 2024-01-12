@@ -16,12 +16,12 @@
   <!-- about section -->
 
   
- @include('include.about')
+ @include('about')
   <!-- end about section -->
 
   <!-- service section -->
 
-  @include('include.service')
+  @include('service')
   <!-- end service section -->
 
 
@@ -32,12 +32,12 @@
   <!-- end client section -->
 
   <!-- contact section -->
-  @include('include.contact')
+  @include('contact')
   
   <!-- end contact section -->
 
   <!-- team section -->
-  @include('include.team')
+  @include('gurads')
   
   <!-- end team section -->
 
