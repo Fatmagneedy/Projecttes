@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,3 +32,9 @@ Route::get('gurads', function () {
     return view('gurads');
 })->name('gurads');
 
+
+Auth::routes(['verify'=>true]);
+Route::get('send-mail', [MailController::class, 'index']);
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
