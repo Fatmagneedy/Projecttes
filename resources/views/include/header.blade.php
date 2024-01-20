@@ -60,6 +60,12 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{{route('contact')}}">Contact us</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ LaravelLocalization::getLocalizedURL('en') }}">English us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ LaravelLocalization::getLocalizedURL('ar') }}">عربى</a>
+                </li>
               </ul>
             </div>
           </nav>
